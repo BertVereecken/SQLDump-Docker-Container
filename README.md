@@ -1,4 +1,4 @@
-# SQLDUMPS OF MYSQL DOCKER CONTAINER
+# SQLDumps of MySQL in docker container
 
 ## Description
 
@@ -14,7 +14,7 @@ For example:
 chmod +x ./restoreSQLDump.sh
 ```
 
-## How to backup
+## How to make an SQL dump
 
 ```
 # makeSQLDump.sh <docker_container_name> <name_of_target_file>
@@ -25,7 +25,7 @@ chmod +x ./restoreSQLDump.sh
 ./makeSQLDump.sh firefly_db myBackup2020_03_05
 ```
 
-## How to restore
+## How to restore an SQL dump
 
 ```
 # restoreSQLDump.sh <docker_container_name> <name_of_target_file>
@@ -38,4 +38,3 @@ chmod +x ./restoreSQLDump.sh
 - [ ] add `db_user` and `db_pass` as args for the scripts with flags
 - [ ] make the script run on a cronjob to make automatic backups
 - [ ] upload to google drive or local filesystem might be nice
-# SQLDump-Docker-Container
