@@ -1,4 +1,4 @@
-# SQLDumps of MySQL in docker container
+# SQLDump of MySQL in docker container
 
 ## Description
 
